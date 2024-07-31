@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: #f4d04e;
+    font-family: "Figtree", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;    
+}
+
+.card {
+    background: #ffffff;
+    border: 1px solid black;
+    width: 100%;
+    max-width: 24rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 8px 8px hsl(0, 0%, 7%);
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+
+.category {
+    background: #f4d04e;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 5.125rem;
+    height: auto;
+    max-height: 1.8125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.category p {
+    color:  hsl(0, 0%, 7%);
+    font-size: 0.875rem;
+    font-weight: 800;
+    line-height: 150%;
+}
+
+.publish-date {
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 150%;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.card-text {
+    color: #6b6b6b;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 150%;
+    margin-top: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 8.0625rem;
+    height: 2rem;
+}
+
+.author img {
+    margin-right: 0.75rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.author p {
+    font-weight: 800;
+    font-size: 0.875rem;
+}
+
+@media (max-width: 390px) {
+    .category {
+        width: 100%;
+        max-width: 4.5625rem;
+        height: auto;
+        max-height: 1.625rem;
+    }
+    .category p {
+        font-size: 0.75rem;
+    }
+    .publish-date {
+        font-size: 0.75rem;
+    }
+    .card-title {
+        font-size: 1.25rem;
+    }
+    .card-text {
+        font-size: 0.875rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-title:hover {
+        color: #f4d04e;
+        cursor: pointer;
+    }
+}
