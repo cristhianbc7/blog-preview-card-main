@@ -12,6 +12,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
   - [Build with](#build-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -47,6 +48,6 @@ During this project, I learned how to create a responsive blog preview card usin
 
 - X - [@cristhianbc_](https://x.com/cristhianbc_)
 
-## Acknowledments
+## Acknowledgments
 
 Thanks, @Islandstone89, for your suggestions.
